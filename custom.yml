@@ -33,6 +33,7 @@ packages:
   - luci-app-gowebdav
   - luci-app-cifsd
   - luci-app-uugamebooster
+  - default-settings
 
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n

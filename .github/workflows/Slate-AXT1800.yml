@@ -16,9 +16,12 @@ on:
         
       ui:
         description: '是否包含官方UI'
-        required: false
+        required: true
         type: boolean
         
+  schedule:
+    - cron: 0 14 * * *
+    
 jobs:
   build:
     runs-on: ubuntu-latest

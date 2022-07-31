@@ -1,4 +1,4 @@
-name: build gl.inet
+name: Slate-AXT1800
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
       device:
         description: '选择设备'     
         required: true
-        default: 'target_wlan_ap-gl-ax1800' 
+        default: 'target_wlan_ap-gl-axt1800' 
         type: choice
         options:
         - target_wlan_ap-gl-ax1800
@@ -55,7 +55,7 @@ jobs:
       id: tag
       if: true && !failure() && !cancelled()
       run: |
-        echo "::set-output name=release_tag::$(date +"%Y.%m.%d-%H%M")"
+        echo "::set-output name=release_tag::Slate-AXT1800-4.4-$(date +"%Y.%m.%d-%H.%M")"
         echo "::set-output name=status::success"
         
     - name: Upload firmware to release

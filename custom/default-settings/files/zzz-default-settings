@@ -7,10 +7,10 @@ uci del system.led_wan
 uci commit system
 
 # 设置风扇50度起转
-echo "uci set glfan.@globals[0].temperature='50'" >> package/base-files/files/bin/config_generate
-echo "uci set glfan.@globals[0].intergration='4'" >> package/base-files/files/bin/config_generate
-echo "uci set glfan.@globals[0].differential='20'" >> package/base-files/files/bin/config_generate
-echo "uci commit glfan" >> package/base-files/files/bin/config_generate
+uci set glfan.@globals[0].temperature='50'
+uci set glfan.@globals[0].intergration='4'
+uci set glfan.@globals[0].differential='20'
+uci commit glfan
 
 # config network
 # uci set network.lan.ipaddr="192.168.1.20"

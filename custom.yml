@@ -20,17 +20,15 @@ packages:
   - luci-app-cpufreq
   - luci-app-ramfree
   - luci-app-usb-printer
-  - luci-app-vsftp
   - luci-app-vlmcsd
   - luci-app-wrtbwmon
   - luci-app-upnp
   - luci-app-wifischedule
-  - luci-app-qbittorrent
   - luci-app-transmission
+  - transmission-web
   - luci-app-diskman
   - luci-app-hd-idle
   - luci-app-gowebdav
-  - luci-app-cifsd
   - luci-app-uugamebooster
   - default-settings
 

@@ -7,7 +7,6 @@ feeds:
 packages:
   - dnsmasq-full
   - kmod-crypto-aead
-  - kmod-crypto-aes
   - kmod-crypto-gcm
   - luci-app-accesscontrol
   - luci-theme-argon-2102

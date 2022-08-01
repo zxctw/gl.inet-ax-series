@@ -5,7 +5,7 @@ on:
     inputs:
       device:
         description: '选择设备'     
-        required: true
+        required: false
         default: 'target_wlan_ap-gl-axt1800' 
         type: choice
         options:

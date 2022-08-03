@@ -36,7 +36,7 @@ jobs:
         git config --global user.name "aa"
     - name: make 
       run: |
-        ./build.sh ~ ${{ inputs.device }} ${{ inputs.ui }}
+        ./build.sh ~ target_wlan_ap-gl-axt1800 ${{ inputs.ui }}
         
     - name: Organize files
       id: organize

@@ -27,6 +27,7 @@
   - luci-app-openclash	    Clash代理客户端
   - luci-app-ddns	          动态域名DNS
   - luci-app-passwall2	    科学上网
+  - luci-app-vssr	          Hello World
   - luci-app-autoreboot	    定时自动重启
   - luci-app-ttyd	          网页终端命令行
   - luci-app-wol	          网络唤醒
@@ -40,7 +41,6 @@
   - luci-app-upnp	          通用即插即用UPnP（端口自动转发）
   - luci-app-wifischedule	  WiFi计划
   - luci-app-transmission	  BT下载工具
-  - luci-app-vsftp	        FTP服务器
   - luci-app-diskman	      磁盘管理
   - luci-app-hd-idle	      硬盘休眠
   - luci-app-gowebdav       Webdav网络共享

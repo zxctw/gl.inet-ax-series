@@ -22,6 +22,8 @@
 
 - 预设使用Argon主题
 
+- 预设散热风扇50度启动（Slate-AXT1800）
+
 - 集成插件：
   - luci-app-accesscontrol	上网时间控制
   - luci-app-openclash	    Clash代理客户端

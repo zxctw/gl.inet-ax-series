@@ -58,7 +58,9 @@ jobs:
       id: tag
       if: true && !failure() && !cancelled()
       run: |
-        echo "::set-output name=release_tag::Slate-AXT1800-4.4-$(date +"%Y.%m.%d-%H%M")"
+        echo "::set-output name=release_tag::Slate-AXT1800-$(date +"%Y.%m.%d-%H%M")"
+        touch release.txt
+        echo "Slate AX(GL-AXT1800)-4.4 Firmware" >> release.txt
         echo "::set-output name=status::success"
         
     - name: Upload firmware to release

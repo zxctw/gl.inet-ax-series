@@ -20,7 +20,7 @@ on:
         type: boolean
         
   schedule:
-    - cron: 34 19 * * *
+    - cron: 0 16 * * *
     
 jobs:
   build:

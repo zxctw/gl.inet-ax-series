@@ -8,7 +8,7 @@
 
 编译配置文件参考了[Road-tech](https://github.com/Road-tech)的[Custom_firmware_for_gl-inet_AXT1800](https://github.com/Road-tech/Custom_firmware_for_gl-inet_AXT1800)，以及[monw](https://github.com/monw)的[gl-infra-builder](https://github.com/monw/gl-infra-builder)
 
-此固件基于[gl-inet](https://github.com/gl-inet)的官方开源仓库[gl-infra-builder](https://github.com/gl-inet/gl-infra-builder)，属Openwrt 21.02，提供5.4及4.4内核两个版本，带有官方界面
+此固件基于[gl-inet](https://github.com/gl-inet)的官方开源仓库[gl-infra-builder](https://github.com/gl-inet/gl-infra-builder)，为Openwrt 21.02，提供5.4及4.4内核两个版本，带有官方界面
 
 支持Slate-AXT1800及Flint-AX1800两个型号
 
@@ -47,6 +47,9 @@
   - luci-app-hd-idle	      硬盘休眠
   - luci-app-gowebdav       Webdav网络共享
   - luci-app-uugamebooster  UU加速器
+
+## 其它
+除官方源码外，[Lean](https://github.com/coolsnowwolf/openwrt-gl-ax1800) 亦对上述两款机型提供64位版本的开源支援。如需尝鲜体验，可到本人[另一项目仓库](https://github.com/eggydutch/eggy-op)下载
 
 ## 关于自动编译脚本
 

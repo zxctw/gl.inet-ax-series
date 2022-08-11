@@ -26,7 +26,6 @@ packages:
   - luci-app-upnp
   - luci-app-wifischedule
   - luci-app-transmission
-  - transmission-web
   - luci-app-diskman
   - luci-app-hd-idle
   - luci-app-gowebdav

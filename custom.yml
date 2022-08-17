@@ -10,7 +10,6 @@ packages:
   - luci-theme-argon-2102
   - luci-app-argon-config
   - luci-app-cifsd
-  - luci-app-easymesh
   - luci-app-openclash
   - luci-app-ddns
   - luci-app-passwall2

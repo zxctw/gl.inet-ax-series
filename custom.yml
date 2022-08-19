@@ -14,6 +14,8 @@ packages:
   - luci-app-ddns
   - luci-app-passwall2
   - luci-app-vssr
+  - hysteria
+  - kcptun
   - luci-app-autoreboot
   - luci-app-ttyd
   - luci-app-wol

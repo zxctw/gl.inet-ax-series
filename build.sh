@@ -43,7 +43,11 @@ fi
 
 
 cd wlan-ap/openwrt
-./scripts/gen_config.py $profile glinet_depends custom
+if [[ $ui == true  ]]; then 
+	./scripts/gen_config.py $profile glinet_depends custom
+else
+	./scripts/gen_config.py $profile openwrt_common luci custom
+fi
 
 git clone https://github.com/gl-inet/glinet4.x.git $base/glinet
 ./scripts/feeds update -a 

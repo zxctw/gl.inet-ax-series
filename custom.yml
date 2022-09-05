@@ -12,7 +12,6 @@ packages:
   - luci-app-cifsd
   - luci-app-openclash
   - luci-app-ddns
-  - luci-app-passwall2
   - luci-app-vssr
   - hysteria
   - kcptun

@@ -13,8 +13,6 @@ packages:
   - luci-app-openclash
   - luci-app-ddns
   - luci-app-vssr
-  - hysteria
-  - kcptun
   - luci-app-autoreboot
   - luci-app-ttyd
   - luci-app-wol

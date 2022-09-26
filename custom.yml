@@ -5,6 +5,7 @@ feeds:
     uri: https://github.com/NueXini/NueXini_Packages.git
     branch: main
 packages:
+  - default-settings
   - dnsmasq-full
   - luci-app-accesscontrol
   - luci-theme-argon-2102
@@ -29,7 +30,7 @@ packages:
   - luci-app-hd-idle
   - luci-app-gowebdav
   - luci-app-uugamebooster
-  - default-settings
+  - luci-app-passwall
 
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n

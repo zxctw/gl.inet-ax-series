@@ -1,10 +1,10 @@
 #!/bin/sh
 
 # config system
-uci set system.@system[0].timezone=CST-8
-uci set system.@system[0].zonename=Asia/Hong Kong
-uci del system.led_wan
-uci commit system
+# uci set system.@system[0].timezone=CST-8
+# uci set system.@system[0].zonename=Asia/Hong Kong
+# uci del system.led_wan
+# uci commit system
 
 # 设置风扇50度起转
 uci set glfan.@globals[0].temperature='50'

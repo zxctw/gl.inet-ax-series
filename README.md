@@ -24,9 +24,10 @@
 
 - 集成插件：
   - luci-app-accesscontrol	上网时间控制
-  - luci-app-openclash	    Clash代理客户端
   - luci-app-ddns	          动态域名DNS
+  - luci-app-openclash	    Clash代理客户端
   - luci-app-vssr	          Hello World
+  - luci-app-passwall	      科学上网
   - luci-app-autoreboot	    定时自动重启
   - luci-app-ttyd	          网页终端命令行
   - luci-app-wol	          网络唤醒

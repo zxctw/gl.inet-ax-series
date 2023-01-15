@@ -1,41 +1,41 @@
-feeds:
-  - name: custom
-    path: ../feeds_dir/custom
-  - name: NueXini_Packages
-    uri: https://github.com/NueXini/NueXini_Packages.git
-    branch: main
-packages:
-  - default-settings
-  - dnsmasq-full
-  - luci-app-accesscontrol
-  - luci-theme-argon-2102
-  - luci-app-argon-config
-  - luci-app-cifsd
-  - luci-app-openclash
-  - luci-app-ddns
-  - luci-app-vssr
-  - luci-app-autoreboot
-  - luci-app-ttyd
-  - luci-app-wol
-  - luci-app-cpufreq
-  - luci-app-ramfree
-  - luci-app-usb-printer
-  - luci-app-vlmcsd
-  - luci-app-wrtbwmon
-  - luci-app-upnp
-  - luci-app-wifischedule
-  - luci-app-transmission
-  - transmission-web
-  - luci-app-diskman
-  - luci-app-hd-idle
-  - luci-app-gowebdav
-  - luci-app-uugamebooster
-  - luci-app-passwall
+# feeds:
+  # - name: custom
+    # path: ../feeds_dir/custom
+  # - name: NueXini_Packages
+    # uri: https://github.com/NueXini/NueXini_Packages.git
+    # branch: main
+# packages:
+  # - default-settings
+  # - dnsmasq-full
+  # - luci-app-accesscontrol
+  # - luci-theme-argon-2102
+  # - luci-app-argon-config
+  # - luci-app-cifsd
+  # - luci-app-openclash
+  # - luci-app-ddns
+  # - luci-app-vssr
+  # - luci-app-autoreboot
+  # - luci-app-ttyd
+  # - luci-app-wol
+  # - luci-app-cpufreq
+  # - luci-app-ramfree
+  # - luci-app-usb-printer
+  # - luci-app-vlmcsd
+  # - luci-app-wrtbwmon
+  # - luci-app-upnp
+  # - luci-app-wifischedule
+  # - luci-app-transmission
+  # - transmission-web
+  # - luci-app-diskman
+  # - luci-app-hd-idle
+  # - luci-app-gowebdav
+  # - luci-app-uugamebooster
+  # - luci-app-passwall
 
-diffconfig: |
-  CONFIG_PACKAGE_wpad-basic=n
-  CONFIG_PACKAGE_wpad=n
-  CONFIG_PACKAGE_dnsmasq=n
-  CONFIG_LUCI_LANG_zh_Hans=y
-  CONFIG_BUSYBOX_CUSTOM=y
-  CONFIG_BUSYBOX_CONFIG_FEATURE_FLOAT_SLEEP=y
+# diffconfig: |
+  # CONFIG_PACKAGE_wpad-basic=n
+  # CONFIG_PACKAGE_wpad=n
+  # CONFIG_PACKAGE_dnsmasq=n
+  # CONFIG_LUCI_LANG_zh_Hans=y
+  # CONFIG_BUSYBOX_CUSTOM=y
+  # CONFIG_BUSYBOX_CONFIG_FEATURE_FLOAT_SLEEP=y

@@ -1,12 +1,12 @@
-feeds:
-  - name: custom
-    path: ../feeds_dir/custom
-  - name: NueXini_Packages
-    uri: https://github.com/NueXini/NueXini_Packages.git
-    branch: main
+# feeds:
+  # - name: custom
+    # path: ../feeds_dir/custom
+  # - name: NueXini_Packages
+    # uri: https://github.com/NueXini/NueXini_Packages.git
+    # branch: main
 # packages:
-  - default-settings
-  - dnsmasq-full
+  # - default-settings
+  # - dnsmasq-full
   # - luci-app-accesscontrol
   # - luci-theme-argon-2102
   # - luci-app-argon-config

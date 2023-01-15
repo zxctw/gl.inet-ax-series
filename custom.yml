@@ -32,10 +32,10 @@
   # - luci-app-uugamebooster
   # - luci-app-passwall
 
-# diffconfig: |
-  # CONFIG_PACKAGE_wpad-basic=n
-  # CONFIG_PACKAGE_wpad=n
-  # CONFIG_PACKAGE_dnsmasq=n
-  # CONFIG_LUCI_LANG_zh_Hans=y
-  # CONFIG_BUSYBOX_CUSTOM=y
-  # CONFIG_BUSYBOX_CONFIG_FEATURE_FLOAT_SLEEP=y
+diffconfig: |
+  CONFIG_PACKAGE_wpad-basic=n
+  CONFIG_PACKAGE_wpad=n
+  CONFIG_PACKAGE_dnsmasq=n
+  CONFIG_LUCI_LANG_zh_Hans=y
+  CONFIG_BUSYBOX_CUSTOM=y
+  CONFIG_BUSYBOX_CONFIG_FEATURE_FLOAT_SLEEP=y
